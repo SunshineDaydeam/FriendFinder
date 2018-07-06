@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FriendFinder-Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- jQuery Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Moment Link -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Google Font Links -->
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+    <style>
+    </style>
+
+</head>
+<body class='bg-secondary'>
+    <div class="container text-center">
+        <div class="jumbotron mt-5">
+            <h1 class="text-center gloria">Friend Finder</h1>
+            <h5 class="text-center">Like Facebook but slightly less creepy</h3>
+            
+        </div>
+        <div class="card  bg-light p-3">
+            <label for="input">Name (required)</label>
+            <input type="text" id="name">
+            <label for="input">Link to Photo (required)</label>
+            <input type="text" id="photo">
+            <label for="q1">I like spicy foods</label>
+            <select id="q1">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10 (Strongly Agree)</option>
+            </select>
+            <label for="g2">I like puppies</label>
+            <select id="q2">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10 (Strongly Agree)</option>
+            </select>
+            <label for="q3">I like spicy foods</label>
+            <select id="q3">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10 (Strongly Agree)</option>
+            </select>
+            <label for="g4">I like puppies</label>
+            <select id="q4">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10 (Strongly Agree)</option>
+            </select>
+            <label for="q5">I like spicy foods</label>
+            <select id="q5">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10 (Strongly Agree)</option>
+            </select>
+            <label for="g6">I like puppies</label>
+            <select id="q6">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10 (Strongly Agree)</option>
+            </select>
+            <label for="q7">I like spicy foods</label>
+            <select id="q7">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10 (Strongly Agree)</option>
+            </select>
+            <label for="g8">I like puppies</label>
+            <select id="q8">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10 (Strongly Agree)</option>
+            </select>
+            <label for="q9">I like spicy foods</label>
+            <select id="q9">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10 (Strongly Agree)</option>
+            </select>
+            <label for="g10">I like puppies</label>
+            <select id="q10">
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10 (Strongly Agree)</option>
+            </select>
+
+            
+            <button class="btn btn-lrg btn-success mt-3" id="submitBtn">SUBMIT</button>
+        </div>
+    </div>
+    
+
+ 
+<script>
+    
+    $(document).ready(function(){
+        $("#submitBtn").on("click", function(){
+
+            var newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: [
+                    parseInt($("#q1").val()),
+                    parseInt($("#q2").val()),
+                    parseInt($("#q3").val()),
+                    parseInt($("#q4").val()),
+                    parseInt($("#q5").val()),
+                    parseInt($("#q6").val()),
+                    parseInt($("#q7").val()),
+                    parseInt($("#q8").val()),
+                    parseInt($("#q9").val()),
+                    parseInt($("#q10").val())
+                ]
+            };
+
+            console.log(newFriend);
+            
+            var currentURL = window.location.origin;
+            $.post(currentURL + "/api/newFriends", newFriend, function(data) {
+               console.log(data);
+            });
+
+        });
+
+    });
+</script>
+</body>
+</html>
