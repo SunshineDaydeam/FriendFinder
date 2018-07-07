@@ -4,7 +4,7 @@
 This is an app designed to help you find friends by answering 10 simple questions.  Please answer truthfully and honestly.  You may be surprised by the results...
 
 
-## How to Run This App
+## How to Run This App from Github
 #### Starting the Server
 - Clone this file to you computer by typing ***git@github.com:SunshineDaydeam/FriendFinder.git*** into your terminal.
 - Run **NPM Init -Y** and  **NPM INSTALL**.
@@ -13,8 +13,11 @@ This is an app designed to help you find friends by answering 10 simple question
 #### Running it in the Web Browser
 - Open your web browser and type ***http://localhost:8080*** to go to the homepage.
 - Click on the *Begin* Button to go to the survey page.
+
+## Heroku Hosting
+- App is hosted live [Available Here](https://friend-finder-12034.herokuapp.com/survey).
 	
-#### The Quiz Itself
+## The Quiz Itself
 
 - Begin by typing in your name and entering a imagelink url into the about me section.
 - Then select a number from 1-10 that best fits your answer to each question.
@@ -25,3 +28,7 @@ This is an app designed to help you find friends by answering 10 simple question
 - Your info will also be added to the friends list.
 	
 ### Questions?
+
+###### ALex Bruner
+###### alexbruner@live.com
+[My Portfolio Website](https://sunshinedaydeam.github.io/MyPortfolio/index.html)
