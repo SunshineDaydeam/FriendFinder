@@ -10,50 +10,18 @@ This is an app designed to help you find friends by answering 10 simple question
 - Run **NPM Init -Y** and  **NPM INSTALL**.
 - To start the server, run **node server**.
 	
-#### Keep Shopping
-
-- They are then prompted to choose another item and quantity.
-- They are then brought back to choose between continuing to shop, checking out, or quitting.
-
-	![IMG](/images/customer3.png)
+#### Running it in the Web Browser
+- Open your web browser and type ***http://localhost:8080*** to go to the homepage.
+- Click on the *Begin* Button to go to the survey page.
 	
-#### Checkout
+#### The Quiz Itself
 
-- They are shown their receipt which includes subtotal prices, sales tax, and grand total price.
-- The quantity of those items they chose are removed from the SQL database.
+- Begin by typing in your name and entering a imagelink url into the about me section.
+- Then select a number from 1-10 that best fits your answer to each question.
+	- 1 meaning you absolutely disagree
+	- 10 meaning you absolutely agree
 
-	![IMG](/images/receipt.png)
+- After you have filled it out and clicked Submit, your closest match will display on the screen.
+- Your info will also be added to the friends list.
 	
-#### Quit
-- This lets the user close the app and not purchase the items.
-
-## Manager Mode
-
-#### View Products
-- Displays All Products, including quantity and cost
-
-	![IMG](/images/managerviewinv.png)
-
-#### View Low Inventory
-- Displays All Products where inventory is less than 50 units
-
-	![IMG](/images/managerviewlow.png)
-
-#### Adjust Quantity
-- Allows user to manually reset a products quantity count in the database
-
-
-	![IMG](/images/manageradjustqty.png)
-
-#### Add Product
-- Allows User to manually add a new product to the database
-
-	![IMG](/images/manageraddproduct.png)
-
-#### Quit
-- Pretty self-explanatory.  Logs you out and closes the application.
-
-	![IMG](/images/managerquit.png)
-
-
 ### Questions?
