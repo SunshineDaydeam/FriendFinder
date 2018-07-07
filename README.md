@@ -5,7 +5,7 @@ This is an app designed to help you find friends by answering 10 simple question
 
 
 ## How to Run This App from Github
-#### Starting the Server
+#### 	Starting the Server
 - Clone this file to you computer by typing ***git@github.com:SunshineDaydeam/FriendFinder.git*** into your terminal.
 - Run **NPM Init -Y** and  **NPM INSTALL**.
 - To start the server, run **node server**.
@@ -28,7 +28,7 @@ This is an app designed to help you find friends by answering 10 simple question
 - Your info will also be added to the friends list.
 	
 ### Questions?
-
-###### ALex Bruner
-###### alexbruner@live.com
-[My Portfolio Website](https://sunshinedaydeam.github.io/MyPortfolio/index.html)
+Please contact me for any questions, comments, or concerns.
+- ALex Bruner
+- alexbruner@live.com
+- [My Portfolio Website](https://sunshinedaydeam.github.io/MyPortfolio/index.html)
