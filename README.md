@@ -1,20 +1,14 @@
 # Friend Finder App
+
 ###### Created By Alex Bruner 7-06-2018
-
-- This is an app designed to help you find friends by answering 10 simple questions.  Please answer truthfully and honestly.
-
-- To run this app, you will need:
-	- A running MySQL server
-	- Run NPM Install
+This is an app designed to help you find friends by answering 10 simple questions.  Please answer truthfully and honestly.  You may be surprised by the results...
 
 
-## How to Run This
-#### Shopping and Adding to Cart
-- The user starts by selecting the number (id) of the product they would like to buy and the quantity that they would like to buy.
-- Then, they are asked to choose to KEEP SHOPPING, CHECKOUT, or QUIT.
-
-	![IMG](/images/customer1.png)
-	![IMG](/images/customer2.png)
+## How to Run This App
+#### Starting the Server
+- Clone this file to you computer by typing ***git@github.com:SunshineDaydeam/FriendFinder.git*** into your terminal.
+- Run **NPM Init -Y** and  **NPM INSTALL**.
+- To start the server, run **node server**.
 	
 #### Keep Shopping
 
