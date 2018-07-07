@@ -17,14 +17,41 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //--------------------API ROUTES--------------------------//
 
-var friendsArray = require("./app/data/friend.js");
+var friendsArray = require("./app/data/friend");
 
 app.get('/api/friends', function(req, res){
     res.json(friendsArray);
 });
 
-app.get('/api/newFriends', function(req, res){
-    res.json(newFriend);
+//Where all the magic happens
+app.post("/api/friends", function(req, res){
+    var compatScoreArray = [];
+    var newScores = req.body.scores;
+    //Goes through each current friend in the array
+    for (i=0; i<friendsArray.length;i++){
+
+        //Runs through the scores to compare
+        var compatScore = 0;
+        for (j=0; j<newScores.length; j++){
+             var diff = (newScores[j] - friendsArray[i].scores[j]);
+             compatScore += Math.abs(diff);
+        }
+        // console.log(friendsArray[i].name);
+        // console.log(compatScore);
+        compatScoreArray.push(compatScore);
+    }
+
+    //lowestNumber
+    var lowestNum = Math.min.apply(null, compatScoreArray);
+    //Index of the Best Match
+    var bestMatch = compatScoreArray.indexOf(lowestNum);
+
+    var perfectMatch = friendsArray[bestMatch];
+    console.log(perfectMatch);
+
+    res.json(perfectMatch);
+
+    // friendsArray.push(req.body);
 });
 
 //--------------------END API ROUTES--------------------------//
