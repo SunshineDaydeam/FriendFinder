@@ -19,6 +19,11 @@ var friendsArray = [
         name: "Leonardo DiCaprio",
         photo: "https://i.pinimg.com/736x/dd/ff/f5/ddfff51156ffc6d8ea326b4a20e7d87f--smoking-kills-young-leo-smoking.jpg",
         scores: [10,1,3,3,10,10,1,10,1,10]
+    },
+    {
+        name: "Frank Reynolds",
+        photo: "http://i.dailymail.co.uk/i/pix/2013/06/13/article-0-1A4EC919000005DC-716_634x821.jpg",
+        scores: [10,1,10,10,10,10,10,5,1,1]
     }
 ];
 

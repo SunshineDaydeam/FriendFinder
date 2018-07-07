@@ -13,160 +13,175 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Google Font Links -->
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 
     <style>
         
     </style>
 
 </head>
-<body class='bg-secondary'>
-    <div class="container text-center">
+<body class='bg-light'>
+    <div class="container">
         <div class="jumbotron mt-5">
-            <h1 class="text-center gloria">Friend Finder</h1>
-            <h5 class="text-center">Like Facebook but slightly less creepy</h3>
-            
+            <h1 class="text-center border-bottom p-3 border-dark">Survey Questions... </h1>
+            <p class="mb-0 pb-3"><i> "Answer these questions as honestly as possible. You never know who you might become friends with."</i></p>
+            <p class ="mt-0 pt-0 text-dark"> - The nameless creator of this app.</p>
         </div>
-        <div class="card  bg-light p-3">
-            <label for="input">Name (required)</label>
-            <input type="text" id="name">
-            <label for="input">Link to Photo (required)</label>
-            <input type="text" id="photo">
-            <label for="q1">I like spicy foods.</label>
-            <select id="q1">
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10 (Strongly Agree)</option>
-            </select>
-            <label for="g2">I prefer dogs over cats.</label>
-            <select id="q2">
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10 (Strongly Agree)</option>
-            </select>
-            <label for="q3">I would rather win dishonestly than lose honorably.</label>
-            <select id="q3">
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10 (Strongly Agree)</option>
-            </select>
-            <label for="g4">I tend to choose comedies over dramas.</label>
-            <select id="q4">
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10 (Strongly Agree)</option>
-            </select>
-            <label for="q5">I prefer to live in an urban area than a rural area.</label>
-            <select id="q5">
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10 (Strongly Agree)</option>
-            </select>
-            <label for="g6">I would rather win an argument than be right.</label>
-            <select id="q6">
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10 (Strongly Agree)</option>
-            </select>
-            <label for="q7">I enjoy the company of strangers.</label>
-            <select id="q7">
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10 (Strongly Agree)</option>
-            </select>
-            <label for="g8">I would rather eat something sweet than savory.</label>
-            <select id="q8">
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10 (Strongly Agree)</option>
-            </select>
-            <label for="q9">Exercise is important to me.</label>
-            <select id="q9">
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10 (Strongly Agree)</option>
-            </select>
-            <label for="g10">Golf is a real sport?</label>
-            <select id="q10">
-                <option value="1">1 (Strongly Disagree)</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10 (Strongly Agree)</option>
-            </select>
+        <div class="card bg-secondary p-3 mb-5">
 
-            <button class="btn btn-lrg btn-success mt-3" id="submitBtn" data-toggle="modal" data-target="#exampleModal">SUBMIT</button>
+            <h4 class="text-info">Your Info</h4>
+
+            <div class="card p-3 mb-3">
+                <h5>Name <span class="text-danger">*</span></h5>
+                <input type="text" id="name" class="mb-3" placeholder="Your name...">
+                <h5>Link to image <span class="text-danger">*</span></h5>
+                <input type="text" id="photo" class="mb-3" placeholder="URL link to your photo...">
+            </div>
+
+            <h4 class="text-info">Questions</h4>
+            
+            <div class="card p-3">
+                <h6>Q1:</h6>
+                <h4><i>I enjoy eating spicy foods.</i></h4>
+                <select id="q1" class="mb-3 w-25">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10 (Strongly Agree)</option>
+                </select>
+                <h6 class=" pt-2 border-top">Q2:</h6>
+                <h4><i>I prefer dogs over cats.</i></h4>
+                <select id="q2" class="mb-3 w-25">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10 (Strongly Agree)</option>
+                </select>
+                <h6 class=" pt-2 border-top">Q3:</h6>
+                <h4><i>I would rather win dishonestly than lose honorably.</i></h4>
+                <select id="q3" class="mb-3 w-25">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10 (Strongly Agree)</option>
+                </select>
+                <h6 class=" pt-2 border-top">Q4:</h6>
+                <h4><i>I tend to choose comedies over dramas.</i></h4>
+                <select id="q4" class="mb-3 w-25">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10 (Strongly Agree)</option>
+                </select>
+                <h6 class=" pt-2 border-top">Q5:</h6>
+                <h4><i>I prefer to live in an urban area than a rural area.</i></h4>
+                <select id="q5" class="mb-3 w-25">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10 (Strongly Agree)</option>
+                </select>
+                <h6 class=" pt-2 border-top">Q6:</h6>
+                <h4><i>I would rather win an argument than be right.</i></h4>
+                <select id="q6" class="mb-3 w-25">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10 (Strongly Agree)</option>
+                </select>
+                <h6 class=" pt-2 border-top">Q7:</h6>
+                <h4><i>I enjoy the company of strangers.</i></h4>
+                <select id="q7" class="mb-3 w-25">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10 (Strongly Agree)</option>
+                </select>
+                <h6 class=" pt-2 border-top">Q8:</h6>
+                <h4><i>I would rather eat something sweet than savory.</i></h4>
+                <select id="q8" class="mb-3 w-25">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10 (Strongly Agree)</option>
+                </select>
+                <h6 class=" pt-2 border-top">Q9:</h6>
+                <h4><i>Exercise is important to me.</i></h4>
+                <select id="q9" class="mb-3 w-25">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10 (Strongly Agree)</option>
+                </select>
+                <h6 class=" pt-2 border-top">Q10:</h6>
+                <h4><i>Golf is a real sport?</i></h4>
+                <select id="q10" class="mb-3 w-25">
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10 (Strongly Agree)</option>
+                </select>
+            </div>
+            <button class="btn btn-success mt-3" id="submitBtn"  data-toggle="modal" data-target="#exampleModal">Submit My Answers!</button>
         </div>
     </div>
 
@@ -197,7 +212,21 @@
             </div>
         </div>
     </div>
-    
+
+    <div class="footer">
+
+        <div class="border-top border-dark opaque bg-white text-dark text-center">
+            <p>
+                <span><a href="https://friend-finder-12034.herokuapp.com/survey">Live On Heroku </a></span> | 
+                <span><a href="/api/friends"> API Friends List </a></span> |
+                <span><a href="https://github.com/SunshineDaydeam/FriendFinder"> GitHub Repository </a></span> |
+                <span><a href="https://sunshinedaydeam.github.io/MyPortfolio/index.html"> My Portfolio</a></span>
+            </p>
+            <p class="mb-0">This page is hosted by <a href="https://www.heroku.com/">Heroku</a></p>
+            <p class="mb-0">This page is maintained by Alex Bruner. Copyright © 2018</p>
+        </div>
+    </div>
+
     <!-- End Modal -->
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
@@ -209,41 +238,46 @@
     $(document).ready(function(){
         $("#submitBtn").on("click", function(){
             event.preventDefault();
+            if ($("#name").val().trim() != "" && $("#photo").val().trim() != ""){
+                console.log("correct");              
 
-            var newFriend = {
-                name: $("#name").val().trim(),
-                photo: $("#photo").val().trim(),
-                scores: [
-                    parseInt($("#q1").val()),
-                    parseInt($("#q2").val()),
-                    parseInt($("#q3").val()),
-                    parseInt($("#q4").val()),
-                    parseInt($("#q5").val()),
-                    parseInt($("#q6").val()),
-                    parseInt($("#q7").val()),
-                    parseInt($("#q8").val()),
-                    parseInt($("#q9").val()),
-                    parseInt($("#q10").val())
-                ]
-            };
+                var newFriend = {
+                    name: $("#name").val().trim(),
+                    photo: $("#photo").val().trim(),
+                    scores: [
+                        parseInt($("#q1").val()),
+                        parseInt($("#q2").val()),
+                        parseInt($("#q3").val()),
+                        parseInt($("#q4").val()),
+                        parseInt($("#q5").val()),
+                        parseInt($("#q6").val()),
+                        parseInt($("#q7").val()),
+                        parseInt($("#q8").val()),
+                        parseInt($("#q9").val()),
+                        parseInt($("#q10").val())
+                    ]
+                };
 
-            console.log(newFriend);
-            
-            
-            $.post("/api/friends", newFriend, function(data){
-                if (data){
-                    // alert("Your new best friend is " + data.name);
-                    console.log(data);
+                console.log(newFriend);
+                
+                
+                $.post("/api/friends", newFriend, function(data){
+                    if (data){
+                        // alert("Your new best friend is " + data.name);
+                        console.log(data);
 
-                    $("#friendsName").text(data.name);
-                    $("#friendsImg").attr("src", data.photo);
-                    $("#friendsImg").addClass("img-fluid");
-                }
-                else {
-                    alert("Sorry there is an issue here");
-                } 
-            })
-
+                        $("#friendsName").text(data.name);
+                        $("#friendsImg").attr("src", data.photo);
+                        $("#friendsImg").addClass("img-fluid");
+                    }
+                    else {
+                        alert("Sorry there is an issue here");
+                    } 
+                });
+            }
+            else{
+                console.log("Not enough letters");
+            }
         });
 
     });
