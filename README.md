@@ -29,6 +29,6 @@ This is an app designed to help you find friends by answering 10 simple question
 	
 ### Questions?
 Please contact me for any questions, comments, or concerns.
-- ALex Bruner
+- Alex Bruner, Full Stack Web Developer
 - alexbruner@live.com
 - [My Portfolio Website](https://sunshinedaydeam.github.io/MyPortfolio/index.html)
